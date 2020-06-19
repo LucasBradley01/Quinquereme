@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Create Feature Layer</title>
+  <h1>Create Feature Layer</h1>
+  <meta charset="utf-8">
+</head>
+<body>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="js/pushFeatureLayer.js"></script>
+  
+  <fieldset>
+    <legend>Create Feature Layer</legend>
+    <label>Username:<br />
+    <input id="username" type="text" /></label><br />
+    <label>Password:<br />
+    <input id="password" type="password" /></label><br />
+    <label>Title:<br />
+    <input id="title" type="text" /></label><br />
+    <label>Tags:<br />
+    <input id="tags" type="text" /></label><br />
+    <label>Layer Type:<br />
+    <select id="layertype">
+      <option value="Points">Points</option>
+      <option value="Lines">Lines</option>
+      <option value="Polygons">Polygons</option>
+    </select><br /><br /></label>
+      
+    <input id="name1" type="text" value="Name1"/>
+    <input id="alias1" type="text" value ="Alias1"/>
+    <select id="type1">
+      <option value="String">String</option>
+      <option value="Integer">Integer</option>
+      <option value="Double">Double</option>
+    </select>
+    <button id="addfield">Add Field</button><br />
+    <div id="additionalfields"></div>
+    <button id="submit">Submit</button>
+  </fieldset>
+</body>
+</html>
+
